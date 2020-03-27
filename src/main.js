@@ -2,7 +2,7 @@ import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
-
+require('../node_modules/bootstrap/dist/css/bootstrap.css'); // memanggil bootstrap
 Vue.config.productionTip = false;
 
 new Vue({
